@@ -13,8 +13,6 @@ public abstract class Bird {
     private String beakType;
 
     // Step 2 - Add behaviors
-    public abstract void fly();
-
     public abstract void makeSound();
 
     public void eating() {

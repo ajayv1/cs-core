@@ -1,6 +1,8 @@
 package org.learning.pakshi;
 
-public class Sparrow extends Bird {
+import org.learning.pakshi.abstractBird.FlyableBird;
+
+public class Sparrow extends FlyableBird {
 
     public Sparrow(Double weight, Double size, String color, String beakType) {
         super(weight, size, color, beakType);
