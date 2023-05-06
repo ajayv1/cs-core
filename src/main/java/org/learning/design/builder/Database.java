@@ -1,13 +1,18 @@
 package org.learning.design.builder;
 
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.xml.crypto.Data;
 
+@NoArgsConstructor
+@Setter
 public class Database {
     private String host;
     private Integer port;
     private String username;
     private String password;
-    private long id;
+    private Long id;
     private DatabaseType type;
 
     public Database(String host, Integer port, String username, String password, long id, DatabaseType type) {
@@ -33,6 +38,5 @@ public class Database {
     public Database(DatabaseType type) {
         new Database(null, null, type);
     }
-
 
 }
