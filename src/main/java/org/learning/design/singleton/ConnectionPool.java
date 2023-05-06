@@ -20,10 +20,11 @@ public class ConnectionPool {
         return instance;
     }
     */
+    // Double-checked locking
     public static ConnectionPool getInstance() {
-        if (instance == null) { // first check is to
+        if (instance == null) { // first check is to whether instance is already created, if not created only goto synchronize block.
             synchronized (ConnectionPool.class) {
-                if (instance == null) {
+                if (instance == null) { // again check if instance is created by another thread then use it else create it.
                     instance = new ConnectionPool();
                 }
             }
