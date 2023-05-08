@@ -7,11 +7,11 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class UserObjectTest {
-    private UserObjectRegistry registry;
+    private Registry<UserObject, UserObjectType> registry;
 
     @Before
     public void setUp() {
-        registry = new UserObjectRegistry();
+        registry = new Registry<>();
 
         UserObject student = new UserObject("Ajay", "Verma", 1, 123, UserObjectType.STUDENT);
 
