@@ -1,4 +1,4 @@
-package org.learning.abstractfactory.models;
+package org.learning.design.abstractfactory.models;
 
 // Step 1: create product interface
 public interface Button {

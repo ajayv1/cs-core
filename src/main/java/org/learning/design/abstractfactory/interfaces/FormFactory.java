@@ -1,7 +1,7 @@
-package org.learning.abstractfactory.interfaces;
+package org.learning.design.abstractfactory.interfaces;
 
-import org.learning.abstractfactory.models.Button;
-import org.learning.abstractfactory.models.Checkbox;
+import org.learning.design.abstractfactory.models.Button;
+import org.learning.design.abstractfactory.models.Checkbox;
 
 // Step 3 - Create an abstract factory interface
 public interface FormFactory {

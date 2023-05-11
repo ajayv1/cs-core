@@ -3,12 +3,11 @@ package org.learning.design.abstractfactory;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.learning.abstractfactory.LightFormFactory;
-import org.learning.abstractfactory.interfaces.FormFactory;
-import org.learning.abstractfactory.models.Button;
-import org.learning.abstractfactory.models.Checkbox;
-import org.learning.abstractfactory.models.LightButton;
-import org.learning.abstractfactory.models.LightCheckbox;
+import org.learning.design.abstractfactory.interfaces.FormFactory;
+import org.learning.design.abstractfactory.models.Button;
+import org.learning.design.abstractfactory.models.Checkbox;
+import org.learning.design.abstractfactory.models.LightButton;
+import org.learning.design.abstractfactory.models.LightCheckbox;
 
 import static org.junit.Assert.assertTrue;
 
