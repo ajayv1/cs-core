@@ -1,6 +1,10 @@
-package org.learning.design.button;
+package org.learning.design.button.models;
 
-public class PrimaryButton implements Button{
+public class PrimaryButton extends Button {
+    public PrimaryButton(String id) {
+        super(id);
+    }
+
     @Override
     public void onClick() {
         System.out.println("Primary button is clicked");
